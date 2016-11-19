@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4597F2041DDE7D5C00CFEFF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4597F2031DDE7D5C00CFEFF5 /* AppDelegate.swift */; };
+		4597F2061DDE7D5C00CFEFF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4597F2051DDE7D5C00CFEFF5 /* ViewController.swift */; };
+		4597F2191DDE7D5C00CFEFF5 /* IntegritasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4597F2181DDE7D5C00CFEFF5 /* IntegritasTests.swift */; };
+		4597F2241DDE7D5C00CFEFF5 /* IntegritasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4597F2231DDE7D5C00CFEFF5 /* IntegritasUITests.swift */; };
+		4597F23A1DDE7DD700CFEFF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4597F2311DDE7DD700CFEFF5 /* Assets.xcassets */; };
+		4597F23B1DDE7DD700CFEFF5 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4597F2321DDE7DD700CFEFF5 /* Base.lproj */; };
+		4597F23C1DDE7DD700CFEFF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4597F2331DDE7DD700CFEFF5 /* LaunchScreen.storyboard */; };
+		4597F23D1DDE7DD700CFEFF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4597F2341DDE7DD700CFEFF5 /* Main.storyboard */; };
+		4597F23E1DDE7DD700CFEFF5 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4597F2351DDE7DD700CFEFF5 /* RatingControl.swift */; };
+		4597F23F1DDE7DD700CFEFF5 /* Thiago.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4597F2361DDE7DD700CFEFF5 /* Thiago.swift */; };
+		4597F2401DDE7DD700CFEFF5 /* ThiagoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4597F2371DDE7DD700CFEFF5 /* ThiagoTableViewCell.swift */; };
+		4597F2411DDE7DD700CFEFF5 /* ThiagoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4597F2381DDE7DD700CFEFF5 /* ThiagoTableViewController.swift */; };
+		4597F2421DDE7DD700CFEFF5 /* ThiagoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4597F2391DDE7DD700CFEFF5 /* ThiagoViewController.swift */; };
+		4597F2441DDE819D00CFEFF5 /* PageItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4597F2431DDE819D00CFEFF5 /* PageItemController.swift */; };
+		4597F2461DDF37E600CFEFF5 /* SlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4597F2451DDF37E600CFEFF5 /* SlideViewController.swift */; };
+		45CCED4F1DDFB40E008C2A67 /* SelectSaveFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CCED4E1DDFB40E008C2A67 /* SelectSaveFileViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4597F2151DDE7D5C00CFEFF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4597F1F81DDE7D5C00CFEFF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4597F1FF1DDE7D5C00CFEFF5;
+			remoteInfo = Integritas;
+		};
+		4597F2201DDE7D5C00CFEFF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4597F1F81DDE7D5C00CFEFF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4597F1FF1DDE7D5C00CFEFF5;
+			remoteInfo = Integritas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4597F2001DDE7D5C00CFEFF5 /* Integritas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Integritas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4597F2031DDE7D5C00CFEFF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4597F2051DDE7D5C00CFEFF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4597F20F1DDE7D5C00CFEFF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4597F2141DDE7D5C00CFEFF5 /* IntegritasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntegritasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4597F2181DDE7D5C00CFEFF5 /* IntegritasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegritasTests.swift; sourceTree = "<group>"; };
+		4597F21A1DDE7D5C00CFEFF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4597F21F1DDE7D5C00CFEFF5 /* IntegritasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntegritasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4597F2231DDE7D5C00CFEFF5 /* IntegritasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegritasUITests.swift; sourceTree = "<group>"; };
+		4597F2251DDE7D5C00CFEFF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4597F2311DDE7DD700CFEFF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4597F2321DDE7DD700CFEFF5 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		4597F2331DDE7DD700CFEFF5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4597F2341DDE7DD700CFEFF5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4597F2351DDE7DD700CFEFF5 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		4597F2361DDE7DD700CFEFF5 /* Thiago.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thiago.swift; sourceTree = "<group>"; };
+		4597F2371DDE7DD700CFEFF5 /* ThiagoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThiagoTableViewCell.swift; sourceTree = "<group>"; };
+		4597F2381DDE7DD700CFEFF5 /* ThiagoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThiagoTableViewController.swift; sourceTree = "<group>"; };
+		4597F2391DDE7DD700CFEFF5 /* ThiagoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThiagoViewController.swift; sourceTree = "<group>"; };
+		4597F2431DDE819D00CFEFF5 /* PageItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageItemController.swift; sourceTree = "<group>"; };
+		4597F2451DDF37E600CFEFF5 /* SlideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SlideViewController.swift; path = ../SlideViewController.swift; sourceTree = "<group>"; };
+		45CCED4E1DDFB40E008C2A67 /* SelectSaveFileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectSaveFileViewController.swift; path = ../SelectSaveFileViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4597F1FD1DDE7D5C00CFEFF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4597F2111DDE7D5C00CFEFF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4597F21C1DDE7D5C00CFEFF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4597F1F71DDE7D5C00CFEFF5 = {
+			isa = PBXGroup;
+			children = (
+				4597F2021DDE7D5C00CFEFF5 /* Integritas */,
+				4597F2171DDE7D5C00CFEFF5 /* IntegritasTests */,
+				4597F2221DDE7D5C00CFEFF5 /* IntegritasUITests */,
+				4597F2011DDE7D5C00CFEFF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4597F2011DDE7D5C00CFEFF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4597F2001DDE7D5C00CFEFF5 /* Integritas.app */,
+				4597F2141DDE7D5C00CFEFF5 /* IntegritasTests.xctest */,
+				4597F21F1DDE7D5C00CFEFF5 /* IntegritasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4597F2021DDE7D5C00CFEFF5 /* Integritas */ = {
+			isa = PBXGroup;
+			children = (
+				4597F2321DDE7DD700CFEFF5 /* Base.lproj */,
+				4597F2311DDE7DD700CFEFF5 /* Assets.xcassets */,
+				4597F2051DDE7D5C00CFEFF5 /* ViewController.swift */,
+				45CCED4E1DDFB40E008C2A67 /* SelectSaveFileViewController.swift */,
+				4597F2431DDE819D00CFEFF5 /* PageItemController.swift */,
+				4597F2451DDF37E600CFEFF5 /* SlideViewController.swift */,
+				4597F2031DDE7D5C00CFEFF5 /* AppDelegate.swift */,
+				4597F2331DDE7DD700CFEFF5 /* LaunchScreen.storyboard */,
+				4597F2341DDE7DD700CFEFF5 /* Main.storyboard */,
+				4597F2351DDE7DD700CFEFF5 /* RatingControl.swift */,
+				4597F2361DDE7DD700CFEFF5 /* Thiago.swift */,
+				4597F2371DDE7DD700CFEFF5 /* ThiagoTableViewCell.swift */,
+				4597F2381DDE7DD700CFEFF5 /* ThiagoTableViewController.swift */,
+				4597F2391DDE7DD700CFEFF5 /* ThiagoViewController.swift */,
+				4597F20F1DDE7D5C00CFEFF5 /* Info.plist */,
+			);
+			path = Integritas;
+			sourceTree = "<group>";
+		};
+		4597F2171DDE7D5C00CFEFF5 /* IntegritasTests */ = {
+			isa = PBXGroup;
+			children = (
+				4597F2181DDE7D5C00CFEFF5 /* IntegritasTests.swift */,
+				4597F21A1DDE7D5C00CFEFF5 /* Info.plist */,
+			);
+			path = IntegritasTests;
+			sourceTree = "<group>";
+		};
+		4597F2221DDE7D5C00CFEFF5 /* IntegritasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4597F2231DDE7D5C00CFEFF5 /* IntegritasUITests.swift */,
+				4597F2251DDE7D5C00CFEFF5 /* Info.plist */,
+			);
+			path = IntegritasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4597F1FF1DDE7D5C00CFEFF5 /* Integritas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4597F2281DDE7D5C00CFEFF5 /* Build configuration list for PBXNativeTarget "Integritas" */;
+			buildPhases = (
+				4597F1FC1DDE7D5C00CFEFF5 /* Sources */,
+				4597F1FD1DDE7D5C00CFEFF5 /* Frameworks */,
+				4597F1FE1DDE7D5C00CFEFF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Integritas;
+			productName = Integritas;
+			productReference = 4597F2001DDE7D5C00CFEFF5 /* Integritas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4597F2131DDE7D5C00CFEFF5 /* IntegritasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4597F22B1DDE7D5C00CFEFF5 /* Build configuration list for PBXNativeTarget "IntegritasTests" */;
+			buildPhases = (
+				4597F2101DDE7D5C00CFEFF5 /* Sources */,
+				4597F2111DDE7D5C00CFEFF5 /* Frameworks */,
+				4597F2121DDE7D5C00CFEFF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4597F2161DDE7D5C00CFEFF5 /* PBXTargetDependency */,
+			);
+			name = IntegritasTests;
+			productName = IntegritasTests;
+			productReference = 4597F2141DDE7D5C00CFEFF5 /* IntegritasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4597F21E1DDE7D5C00CFEFF5 /* IntegritasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4597F22E1DDE7D5C00CFEFF5 /* Build configuration list for PBXNativeTarget "IntegritasUITests" */;
+			buildPhases = (
+				4597F21B1DDE7D5C00CFEFF5 /* Sources */,
+				4597F21C1DDE7D5C00CFEFF5 /* Frameworks */,
+				4597F21D1DDE7D5C00CFEFF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4597F2211DDE7D5C00CFEFF5 /* PBXTargetDependency */,
+			);
+			name = IntegritasUITests;
+			productName = IntegritasUITests;
+			productReference = 4597F21F1DDE7D5C00CFEFF5 /* IntegritasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4597F1F81DDE7D5C00CFEFF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Thiago Guimaraes";
+				TargetAttributes = {
+					4597F1FF1DDE7D5C00CFEFF5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					4597F2131DDE7D5C00CFEFF5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4597F1FF1DDE7D5C00CFEFF5;
+					};
+					4597F21E1DDE7D5C00CFEFF5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4597F1FF1DDE7D5C00CFEFF5;
+					};
+				};
+			};
+			buildConfigurationList = 4597F1FB1DDE7D5C00CFEFF5 /* Build configuration list for PBXProject "Integritas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4597F1F71DDE7D5C00CFEFF5;
+			productRefGroup = 4597F2011DDE7D5C00CFEFF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4597F1FF1DDE7D5C00CFEFF5 /* Integritas */,
+				4597F2131DDE7D5C00CFEFF5 /* IntegritasTests */,
+				4597F21E1DDE7D5C00CFEFF5 /* IntegritasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4597F1FE1DDE7D5C00CFEFF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4597F23D1DDE7DD700CFEFF5 /* Main.storyboard in Resources */,
+				4597F23B1DDE7DD700CFEFF5 /* Base.lproj in Resources */,
+				4597F23C1DDE7DD700CFEFF5 /* LaunchScreen.storyboard in Resources */,
+				4597F23A1DDE7DD700CFEFF5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4597F2121DDE7D5C00CFEFF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4597F21D1DDE7D5C00CFEFF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4597F1FC1DDE7D5C00CFEFF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4597F2061DDE7D5C00CFEFF5 /* ViewController.swift in Sources */,
+				4597F2411DDE7DD700CFEFF5 /* ThiagoTableViewController.swift in Sources */,
+				4597F2401DDE7DD700CFEFF5 /* ThiagoTableViewCell.swift in Sources */,
+				45CCED4F1DDFB40E008C2A67 /* SelectSaveFileViewController.swift in Sources */,
+				4597F2441DDE819D00CFEFF5 /* PageItemController.swift in Sources */,
+				4597F23E1DDE7DD700CFEFF5 /* RatingControl.swift in Sources */,
+				4597F2461DDF37E600CFEFF5 /* SlideViewController.swift in Sources */,
+				4597F2041DDE7D5C00CFEFF5 /* AppDelegate.swift in Sources */,
+				4597F23F1DDE7DD700CFEFF5 /* Thiago.swift in Sources */,
+				4597F2421DDE7DD700CFEFF5 /* ThiagoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4597F2101DDE7D5C00CFEFF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4597F2191DDE7D5C00CFEFF5 /* IntegritasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4597F21B1DDE7D5C00CFEFF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4597F2241DDE7D5C00CFEFF5 /* IntegritasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4597F2161DDE7D5C00CFEFF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4597F1FF1DDE7D5C00CFEFF5 /* Integritas */;
+			targetProxy = 4597F2151DDE7D5C00CFEFF5 /* PBXContainerItemProxy */;
+		};
+		4597F2211DDE7D5C00CFEFF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4597F1FF1DDE7D5C00CFEFF5 /* Integritas */;
+			targetProxy = 4597F2201DDE7D5C00CFEFF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4597F2261DDE7D5C00CFEFF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4597F2271DDE7D5C00CFEFF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4597F2291DDE7D5C00CFEFF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Integritas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guimaraes.thiago.Integritas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4597F22A1DDE7D5C00CFEFF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Integritas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guimaraes.thiago.Integritas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4597F22C1DDE7D5C00CFEFF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IntegritasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guimaraes.thiago.IntegritasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Integritas.app/Integritas";
+			};
+			name = Debug;
+		};
+		4597F22D1DDE7D5C00CFEFF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IntegritasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guimaraes.thiago.IntegritasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Integritas.app/Integritas";
+			};
+			name = Release;
+		};
+		4597F22F1DDE7D5C00CFEFF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IntegritasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guimaraes.thiago.IntegritasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Integritas;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4597F2301DDE7D5C00CFEFF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IntegritasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guimaraes.thiago.IntegritasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Integritas;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4597F1FB1DDE7D5C00CFEFF5 /* Build configuration list for PBXProject "Integritas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4597F2261DDE7D5C00CFEFF5 /* Debug */,
+				4597F2271DDE7D5C00CFEFF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4597F2281DDE7D5C00CFEFF5 /* Build configuration list for PBXNativeTarget "Integritas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4597F2291DDE7D5C00CFEFF5 /* Debug */,
+				4597F22A1DDE7D5C00CFEFF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4597F22B1DDE7D5C00CFEFF5 /* Build configuration list for PBXNativeTarget "IntegritasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4597F22C1DDE7D5C00CFEFF5 /* Debug */,
+				4597F22D1DDE7D5C00CFEFF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4597F22E1DDE7D5C00CFEFF5 /* Build configuration list for PBXNativeTarget "IntegritasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4597F22F1DDE7D5C00CFEFF5 /* Debug */,
+				4597F2301DDE7D5C00CFEFF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4597F1F81DDE7D5C00CFEFF5 /* Project object */;
+}
